@@ -3,12 +3,12 @@ from datetime import date
 
 @dc
 class Account:
-    account_number : int
+    number : str
     balance : int
 
 @dc
 class Card:
-    expeiration_date : date
+    expiration_date : date
     pin : str
     cvc : int
     bank : str
@@ -16,8 +16,8 @@ class Card:
     checking : Account
 
 @dc
-class ATM:
+class AtmState:
+    cash : int
     bank : str = 'Bank Of America'
     card : Card = None
-    
     

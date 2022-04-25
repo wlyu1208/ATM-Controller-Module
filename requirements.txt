@@ -1,2 +1,2 @@
 dataclasses
-hashlib
+pytest
