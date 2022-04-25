@@ -1,0 +1,5 @@
+__pycache__/
+.pytest_cahche/
+
+controller/__pycahce__/
+model/__pycache__/

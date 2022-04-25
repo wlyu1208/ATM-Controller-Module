@@ -18,6 +18,5 @@ class Card:
 @dc
 class AtmState:
     cash : int
-    bank : str = 'Bank Of America'
     card : Card = None
     
