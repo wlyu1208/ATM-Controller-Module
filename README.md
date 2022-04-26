@@ -23,15 +23,19 @@ Repository for simple ATM contoller module with card insertion, account selectio
 
 # How to Test
  - If you use Anaconda, create environment with python = 3.9
+ 1. Clone repository with https `https://github.com/wlyu1208/ATM-Controller-Module.git`
+    ```console
+    $ git clone https://github.com/wlyu1208/ATM-Controller-Module.git
+    ```
  
- 1. Install libraries that are used in this project
+ 2. Install libraries that are used in this project
     ```console
     $ pip install -r requirements.txt
     ```
 
- 2. Run pytest where test_controller.py is placed
+ 3. Run pytest where test_controller.py is placed
     ```console
     $ pytest
     ``` 
 
- 3. There are fourteen test cases in test_controll.py, and all tests need to be passed. 
+ 4. There are 14 test cases in test_controll.py, and all tests need to be passed. 
