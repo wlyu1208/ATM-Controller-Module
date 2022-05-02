@@ -18,8 +18,8 @@ Repository for simple ATM contoller module with card insertion, account selectio
  - SW:
     - Anaconda
     - Lanaguage Package:
-        a. dataclasses
-        b. pytest
+        - dataclasses
+        - pytest
 
 # How to Test
  - If you use Anaconda, create environment with python = 3.9
